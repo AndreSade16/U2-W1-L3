@@ -341,3 +341,47 @@ article img {
     justify-content: center;
   }
 }
+
+@media screen and (min-width: 992px) {
+  #vertical {
+    padding: 0 1em;
+  }
+
+  main {
+    padding: 0;
+  }
+
+  main #cards-container {
+    justify-content: space-between;
+    gap: 0em;
+    margin-bottom: 2em;
+  }
+
+  .card {
+    min-width: auto;
+    width: 23%;
+    height: 100%;
+    gap: 1em;
+  }
+
+  .card-caption {
+    text-align: center;
+    justify-content: space-evenly;
+  }
+
+  .card-text {
+    font-size: 0.8em;
+  }
+
+  .card-title {
+    width: 60%;
+  }
+
+  .card-btn {
+    padding: 0.5em;
+  }
+
+  footer {
+    width: 100%;
+  }
+}
